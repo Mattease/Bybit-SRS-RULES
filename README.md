@@ -6,9 +6,10 @@
 
 1. **复制链接**：
    复制本仓库中 `bybit.list` 文件的 **Raw** 链接。
+   
    `https://raw.githubusercontent.com/Mattease/Bybit-SRS-RULES/main/bybit.list`
 
-2. **添加至 Shadowrocket**：
+3. **添加至 Shadowrocket**：
    - 打开小火箭 -> **配置** -> 点击当前配置右侧的 **(i)**。
    - 选择 **规则** -> **右上角 + 号**。
    - **类型**：选择 `RULE-SET`。
