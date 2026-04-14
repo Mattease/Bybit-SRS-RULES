@@ -1,0 +1,37 @@
+# NAME: Bybit  RuleSet
+# AUTHOR: ERIC
+# UPDATE: 2026-04-14
+
+# --- 域名后缀匹配 (Domain Suffix) ---
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
+
+# --- 精确域名匹配 (Domain) ---
+DOMAIN,bybit-exchange.github.io
+DOMAIN,app-measurement.com
+
+# --- 亚马逊相关服务 (按需保留，可能会影响其他亚马逊服务) ---
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+
+# --- IP 段匹配 (IP-CIDR) ---
+IP-CIDR,13.32.121.6/32,no-resolve
+IP-CIDR,43.133.238.145/32,no-resolve
+IP-CIDR,13.33.187.108/32,no-resolve
+IP-CIDR,150.109.230.182/32,no-resolve
+IP-CIDR,142.251.215.234/32,no-resolve
+IP-CIDR,43.133.241.84/32,no-resolve
+IP-CIDR,3.160.150.37/32,no-resolve
