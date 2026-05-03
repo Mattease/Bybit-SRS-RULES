@@ -1,6 +1,6 @@
-# NAME: Bybit  RuleSet
-# AUTHOR: ERIC
-# UPDATE: 2026-04-14
+# NAME: Bybit RuleSet Complete
+# AUTHOR: Merged
+# UPDATE: 2026-05-03
 
 # --- 域名后缀匹配 (Domain Suffix) ---
 DOMAIN-SUFFIX,bybit.com
@@ -14,6 +14,9 @@ DOMAIN-SUFFIX,bytick.com
 DOMAIN-SUFFIX,byapis.com
 DOMAIN-SUFFIX,bycbe.com
 DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybitglobal.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
@@ -22,8 +25,9 @@ DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
 # --- 精确域名匹配 (Domain) ---
 DOMAIN,bybit-exchange.github.io
 DOMAIN,app-measurement.com
+DOMAIN,bybit.ada.support
 
-# --- 亚马逊相关服务 (按需保留，可能会影响其他亚马逊服务) ---
+# --- 亚马逊相关服务 (按需保留) ---
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonaws.com
 
