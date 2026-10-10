@@ -1,41 +1,32 @@
-# NAME: Bybit RuleSet Complete
-# AUTHOR: Merged
-# UPDATE: 2026-05-03
+# NAME: Bybit RuleSet Optimized
+# 官方网站: https://www.bybit.com
 
-# --- 域名后缀匹配 (Domain Suffix) ---
+# --- 关键词匹配（兜底防漏） ---
+DOMAIN-KEYWORD,bybit
+
+# --- 官方及相关主域名后缀匹配 ---
 DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bybit.biz
-DOMAIN-SUFFIX,bybdc6.com
-DOMAIN-SUFFIX,byabcde.com
-DOMAIN-SUFFIX,byapps.net
-DOMAIN-SUFFIX,byd3c3.com
-DOMAIN-SUFFIX,bycsi.com
-DOMAIN-SUFFIX,bytick.com
-DOMAIN-SUFFIX,byapis.com
-DOMAIN-SUFFIX,bycbe.com
-DOMAIN-SUFFIX,bymj.io
-DOMAIN-SUFFIX,bybit-global.com
 DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,bybitglobal.com
-DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybitassets.com
+DOMAIN-SUFFIX,bybit-api.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bycbe.com
+
+# --- 混淆/特定路由 API 域名 ---
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de
 DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com
 
-# --- 精确域名匹配 (Domain) ---
+# --- 专属支持与托管域名 ---
 DOMAIN,bybit-exchange.github.io
-DOMAIN,app-measurement.com
 DOMAIN,bybit.ada.support
-
-# --- 亚马逊相关服务 (按需保留) ---
-DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,amazonaws.com
-
-# --- IP 段匹配 (IP-CIDR) ---
-IP-CIDR,13.32.121.6/32,no-resolve
-IP-CIDR,43.133.238.145/32,no-resolve
-IP-CIDR,13.33.187.108/32,no-resolve
-IP-CIDR,150.109.230.182/32,no-resolve
-IP-CIDR,142.251.215.234/32,no-resolve
-IP-CIDR,43.133.241.84/32,no-resolve
-IP-CIDR,3.160.150.37/32,no-resolve
